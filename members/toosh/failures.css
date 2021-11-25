@@ -1,0 +1,110 @@
+html,
+body {
+  height: 100%;
+  margin: 0px;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  background-color: #181818;
+}
+
+main {
+  margin: 0px;
+  display: flex;
+  height: 100%;
+  flex: 1 1;
+  font-family: "Titillium Web", sans-serif;
+  color: white;
+}
+main div {
+  height: 100%;
+  width: 100%;
+  border: 3px solid #64e3df;
+  display: flex;
+  font-family: "Ubuntu", sans-serif;
+  flex-flow: column;
+}
+main div div {
+  height: 50%;
+  width: 100%;
+  border: 2px solid #64e3df;
+  display: flex;
+  font-family: "Ubuntu", sans-serif;
+  flex-flow: column;
+}
+pre {
+  position: absolute;
+  margin: 10px;
+  height: 100%;
+  font-size: 0.8vw;
+  text-align: left;
+  font-family: "Roboto Mono", monospace;
+}
+
+img {
+  height: fit-content;
+  border: 2px solid #64e3df;
+}
+#particles-js {
+  background: #111111;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -10;
+  top: 0;
+  left: 0;
+}
+
+#particle-js canvas {
+  width: 100%;
+  display: flex;
+  height: 100%;
+}
+#timer {
+  display: flex;
+  font-size: x-large;
+  text-align: center;
+  padding-top: 100px;
+}
+
+p {
+  display: flex;
+  text-align: left;
+  font-size: xx-large;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 0.5px;
+  -webkit-border-radius: 0.5px;
+  -moz-border-radius: 0.5px;
+  -ms-border-radius: 0.5px;
+  -o-border-radius: 0.5px;
+}
+
+span {
+  margin: 3.5vw;
+  font-size: 2.5vw;
+  font-family: "Share Tech Mono", monospace;
+  text-align: center;
+}
+
+#other {
+  background: url(../1815031005dna-3d-animation-put-on-glasses.gif) no-repeat
+    right bottom fixed;
+  background-size: 50vw 60vh;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #64e3df;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}

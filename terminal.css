@@ -1,0 +1,30 @@
+.terminal,
+.cmd,
+.terminal .terminal-output div div,
+.cmd .prompt {
+  font-family: "VT323", monospace;
+  line-height: 24px;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 0.5px;
+  -webkit-border-radius: 0.5px;
+  -moz-border-radius: 0.5px;
+  -ms-border-radius: 0.5px;
+  -o-border-radius: 0.5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #64e3df;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}

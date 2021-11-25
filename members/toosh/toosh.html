@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./failures.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=Roboto+Mono:wght@100&family=Share+Tech+Mono&family=Space+Mono&family=VT323&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="info" id="particle-js">
+        <pre>
+
+[Name] Ahmed Zaki.
+
+[Nickname] Retard/Toosh-Bot/Mota5lef/7mar/Dumbass/The Unlearning.
+
+[DoB] July 21st.
+
+[Age] 19
+
+[Birthplace] [TBD].
+
+[City Of Residence] Some shit hole in germany none cares.
+
+[Spoke Language] German.
+
+[Height] ?????????
+
+[Weight]  ????????
+
+[Hobbies] Hurting people mentally - Being a Dumbass - Typing Hello World
+- Using tree in cmd - Coding/Programming.
+
+[Likes] Toosh - Getting Kicked - Getting Banned - Getting Insulted - Shane Dawsoning cats 
+- Inting with Shaco - Sucking dick - Being a disappointment - Theorising the dumbest of things 
+- Binge Watching & Wasting time
+
+[Dislikes] Getting chances - being forgiven - getting talked to like a normal person
+- socializing in any way, shape, or form - flies.
+    </pre
+        >
+      </div>
+      <div id="other">
+        <img src="./bangbang.png" />
+        <span>Time Until birthday</span>
+        <span id="birthday"></span>
+        <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+        <!-- <script src="/js/particles.js"></script> -->
+        <script>
+          particlesJS.load("particle-js", "particles.json", function () {
+            console.log("Particles loaded!");
+          });
+        </script>
+        <script>
+          // Set the date we're counting down to
+          var countDownDate = new Date("Jul 21, 2022 00:00:00").getTime();
+
+          // Update the count down every 1 second
+          var x = setInterval(function () {
+            // Get today's date and time
+            var now = new Date().getTime();
+
+            // Find the distance between now and the count down date
+            var distance = countDownDate - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor(
+              (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+            );
+            var minutes = Math.floor(
+              (distance % (1000 * 60 * 60)) / (1000 * 60)
+            );
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Display the result in the element with id="birthday"
+            document.getElementById("birthday").innerHTML =
+              days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
+            // If the count down is finished, write some text
+            if (distance < 0) {
+              clearInterval(x);
+              document.getElementById("birthday").innerHTML = "EXPIRED";
+            }
+          }, 1000);
+        </script>
+      </div>
+    </main>
+  </body>
+</html>

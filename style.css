@@ -1,0 +1,100 @@
+body {
+  background: url(carna.gif) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+p {
+  color: azure;
+  font-size: x-small;
+  font-weight: bold;
+  font-family: "Titillium Web", sans-serif;
+  padding-top: 39px;
+  padding-bottom: 0px;
+}
+#recycle {
+  position: relative;
+  height: 50px;
+  width: 55px;
+}
+#recycle img.bin-hov {
+  position: absolute;
+  left: 0;
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+}
+
+#recycle img.bin-hov:hover {
+  opacity: 0;
+}
+
+#cmdline {
+  position: relative;
+  height: 19px;
+  width: 10px;
+  top: -15px;
+  margin-top: 15px;
+  padding-top: 10px;
+}
+#cmdline img.terminal-hov {
+  position: absolute;
+  left: 0;
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+
+#cmdline img.terminal-hov:hover {
+  opacity: 0;
+}
+.fa {
+  color: #64e3df;
+}
+
+.wb-body {
+  background: rgb(0, 0, 0);
+}
+.wb-title {
+  color: black;
+}
+.wb-icon {
+  filter: invert(1);
+  -webkit-filter: invert(1);
+}
+
+.wb-icon *:hover {
+  filter: invert(1);
+  -webkit-filter: invert(1);
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 0.5px;
+  -webkit-border-radius: 0.5px;
+  -moz-border-radius: 0.5px;
+  -ms-border-radius: 0.5px;
+  -o-border-radius: 0.5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #64e3df;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}

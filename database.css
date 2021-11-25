@@ -1,0 +1,139 @@
+html,
+body {
+  height: 100%;
+  margin: 0px;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  background-color: #181818;
+}
+
+main {
+  margin: 0px;
+  display: flex;
+  align-items: stretch;
+  height: 100%;
+  flex: 1;
+  font-family: "Titillium Web", sans-serif;
+  color: white;
+}
+main div {
+  margin: 0px;
+  width: 100%;
+  border: 2px solid #64e3df;
+  flex: 1 1 auto;
+  display: flex;
+  font-family: "Ubuntu", sans-serif;
+  flex-flow: column;
+  height: 100%;
+}
+main div div {
+  text-decoration: none;
+  font-family: "IBM Plex Mono", monospace;
+  width: 100%;
+  margin: 0px;
+  height: 100%;
+  border-top: 10px;
+  padding-top: 20px;
+  text-align: center;
+  opacity: 0.6;
+  flex: 1 1 auto;
+  margin: 0px;
+  display: flex;
+}
+main div div:hover {
+  text-decoration: none;
+  padding-top: 20px;
+  text-align: center;
+  opacity: 100;
+  margin: 0px;
+  height: 100%;
+  display: flex;
+  margin: 0px;
+  height: 100%;
+}
+
+pre {
+  height: 100%;
+  margin: 0px;
+  position: absolute;
+  display: flex;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+pre p {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  font-family: "IBM Plex Mono", monospace;
+}
+.list {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  resize: horizontal;
+  overflow: auto;
+  opacity: 0.5;
+}
+/* .ascii-art {
+  font-family: monospace;
+  white-space: pre;
+} */
+
+#particles-js {
+  background: #111111;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -10;
+  top: 0;
+  left: 0;
+}
+
+#particle-js canvas {
+  width: 100%;
+  display: flex;
+  height: 100%;
+}
+p {
+  color: white;
+  text-align: left;
+  height: 100%;
+  display: flex;
+}
+
+/* width */
+::-webkit-scrollbar {
+  opacity: 0.5;
+  width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  opacity: 0.5;
+  border-radius: 0.5px;
+  -webkit-border-radius: 0.5px;
+  -moz-border-radius: 0.5px;
+  -ms-border-radius: 0.5px;
+  -o-border-radius: 0.5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  opacity: 0.5;
+  background: #64e3df;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
